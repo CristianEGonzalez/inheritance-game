@@ -26,7 +26,7 @@ class Heart inherits Collectable{
 }
 
 object link{
-  var property position = game.at(11,0)
+  var property position = game.at(game.width()-1,0) // WIDTH-1 debería posicionarlo en X = 11 y lo coloca en X = 5
   var property image = "link.png"
   var property puntos = 0
   var property vida = 100
